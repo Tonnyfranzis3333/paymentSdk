@@ -11,6 +11,29 @@
 		522BF2BC2B4EC7350007B140 /* AirpayPaymentSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522BF2B12B4EC7350007B140 /* AirpayPaymentSdk.framework */; };
 		522BF2C12B4EC7350007B140 /* AirpayPaymentSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BF2C02B4EC7350007B140 /* AirpayPaymentSdkTests.swift */; };
 		522BF2C22B4EC7350007B140 /* AirpayPaymentSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BF2B42B4EC7350007B140 /* AirpayPaymentSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522D62A12BAC0DA600C3DB88 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D62A02BAC0DA600C3DB88 /* LocalizationManager.swift */; };
+		5259FA632B6B9E2F000AE23C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259FA622B6B9E2F000AE23C /* CustomButton.swift */; };
+		5263B3972B70E76000058BCC /* SurchargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263B3962B70E76000058BCC /* SurchargeModel.swift */; };
+		52915C362B56A4ED00B7C908 /* PaymentResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52915C352B56A4ED00B7C908 /* PaymentResponseModel.swift */; };
+		529E6DEA2B51768000F6ECBC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DD92B51768000F6ECBC /* StringExtension.swift */; };
+		529E6DEB2B51768000F6ECBC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDA2B51768000F6ECBC /* SessionManager.swift */; };
+		529E6DEC2B51768000F6ECBC /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDB2B51768000F6ECBC /* DictionaryExtension.swift */; };
+		529E6DED2B51768000F6ECBC /* payIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDC2B51768000F6ECBC /* payIndexModel.swift */; };
+		529E6DEE2B51768000F6ECBC /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDD2B51768000F6ECBC /* APIClient.swift */; };
+		529E6DEF2B51768000F6ECBC /* ConfirmPayementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDE2B51768000F6ECBC /* ConfirmPayementView.swift */; };
+		529E6DF02B51768000F6ECBC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DDF2B51768000F6ECBC /* TimerView.swift */; };
+		529E6DF12B51768000F6ECBC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE02B51768000F6ECBC /* LoginModel.swift */; };
+		529E6DF22B51768000F6ECBC /* MultipartMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE12B51768000F6ECBC /* MultipartMedia.swift */; };
+		529E6DF32B51768000F6ECBC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE22B51768000F6ECBC /* App.swift */; };
+		529E6DF42B51768000F6ECBC /* InputOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE32B51768000F6ECBC /* InputOutput.swift */; };
+		529E6DF52B51768000F6ECBC /* AES256Cryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE42B51768000F6ECBC /* AES256Cryption.swift */; };
+		529E6DF62B51768000F6ECBC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE52B51768000F6ECBC /* Session.swift */; };
+		529E6DF72B51768000F6ECBC /* AccessTokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE62B51768000F6ECBC /* AccessTokenResponseModel.swift */; };
+		529E6DF82B51768000F6ECBC /* proceedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE72B51768000F6ECBC /* proceedViewModel.swift */; };
+		529E6DF92B51768000F6ECBC /* TimerWithLoaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE82B51768000F6ECBC /* TimerWithLoaderApp.swift */; };
+		529E6DFA2B51768000F6ECBC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E6DE92B51768000F6ECBC /* APIManager.swift */; };
+		52D5A19C2B6A83880038607F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D5A19B2B6A83880038607F /* Assets.xcassets */; };
+		52F1F5D92B74A2EA00B5DDFD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52F1F5D82B74A2EA00B5DDFD /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +52,29 @@
 		522BF2B52B4EC7350007B140 /* AirpayPaymentSdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AirpayPaymentSdk.docc; sourceTree = "<group>"; };
 		522BF2BB2B4EC7350007B140 /* AirpayPaymentSdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirpayPaymentSdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BF2C02B4EC7350007B140 /* AirpayPaymentSdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirpayPaymentSdkTests.swift; sourceTree = "<group>"; };
+		522D62A02BAC0DA600C3DB88 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		5259FA622B6B9E2F000AE23C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5263B3962B70E76000058BCC /* SurchargeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurchargeModel.swift; sourceTree = "<group>"; };
+		52915C352B56A4ED00B7C908 /* PaymentResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentResponseModel.swift; sourceTree = "<group>"; };
+		529E6DD92B51768000F6ECBC /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		529E6DDA2B51768000F6ECBC /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		529E6DDB2B51768000F6ECBC /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		529E6DDC2B51768000F6ECBC /* payIndexModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payIndexModel.swift; sourceTree = "<group>"; };
+		529E6DDD2B51768000F6ECBC /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		529E6DDE2B51768000F6ECBC /* ConfirmPayementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPayementView.swift; sourceTree = "<group>"; };
+		529E6DDF2B51768000F6ECBC /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		529E6DE02B51768000F6ECBC /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		529E6DE12B51768000F6ECBC /* MultipartMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartMedia.swift; sourceTree = "<group>"; };
+		529E6DE22B51768000F6ECBC /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		529E6DE32B51768000F6ECBC /* InputOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputOutput.swift; sourceTree = "<group>"; };
+		529E6DE42B51768000F6ECBC /* AES256Cryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES256Cryption.swift; sourceTree = "<group>"; };
+		529E6DE52B51768000F6ECBC /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		529E6DE62B51768000F6ECBC /* AccessTokenResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenResponseModel.swift; sourceTree = "<group>"; };
+		529E6DE72B51768000F6ECBC /* proceedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = proceedViewModel.swift; sourceTree = "<group>"; };
+		529E6DE82B51768000F6ECBC /* TimerWithLoaderApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerWithLoaderApp.swift; sourceTree = "<group>"; };
+		529E6DE92B51768000F6ECBC /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		52D567772B513F3F00F7F346 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		52D5A19B2B6A83880038607F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F1F5D92B74A2EA00B5DDFD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +103,7 @@
 				522BF2B32B4EC7350007B140 /* AirpayPaymentSdk */,
 				522BF2BF2B4EC7350007B140 /* AirpayPaymentSdkTests */,
 				522BF2B22B4EC7350007B140 /* Products */,
+				52D567762B513F3F00F7F346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +120,28 @@
 			isa = PBXGroup;
 			children = (
 				522BF2B42B4EC7350007B140 /* AirpayPaymentSdk.h */,
+				529E6DE62B51768000F6ECBC /* AccessTokenResponseModel.swift */,
+				529E6DE42B51768000F6ECBC /* AES256Cryption.swift */,
+				529E6DDD2B51768000F6ECBC /* APIClient.swift */,
+				529E6DE92B51768000F6ECBC /* APIManager.swift */,
+				529E6DE22B51768000F6ECBC /* App.swift */,
+				529E6DDE2B51768000F6ECBC /* ConfirmPayementView.swift */,
+				522D62A02BAC0DA600C3DB88 /* LocalizationManager.swift */,
+				529E6DDB2B51768000F6ECBC /* DictionaryExtension.swift */,
+				529E6DE32B51768000F6ECBC /* InputOutput.swift */,
+				529E6DE02B51768000F6ECBC /* LoginModel.swift */,
+				529E6DE12B51768000F6ECBC /* MultipartMedia.swift */,
+				529E6DDC2B51768000F6ECBC /* payIndexModel.swift */,
+				52915C352B56A4ED00B7C908 /* PaymentResponseModel.swift */,
+				5263B3962B70E76000058BCC /* SurchargeModel.swift */,
+				529E6DE72B51768000F6ECBC /* proceedViewModel.swift */,
+				529E6DE52B51768000F6ECBC /* Session.swift */,
+				529E6DDA2B51768000F6ECBC /* SessionManager.swift */,
+				529E6DD92B51768000F6ECBC /* StringExtension.swift */,
+				5259FA622B6B9E2F000AE23C /* CustomButton.swift */,
+				529E6DDF2B51768000F6ECBC /* TimerView.swift */,
+				529E6DE82B51768000F6ECBC /* TimerWithLoaderApp.swift */,
+				52D5A19B2B6A83880038607F /* Assets.xcassets */,
 				522BF2B52B4EC7350007B140 /* AirpayPaymentSdk.docc */,
 			);
 			path = AirpayPaymentSdk;
@@ -83,6 +153,14 @@
 				522BF2C02B4EC7350007B140 /* AirpayPaymentSdkTests.swift */,
 			);
 			path = AirpayPaymentSdkTests;
+			sourceTree = "<group>";
+		};
+		52D567762B513F3F00F7F346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D567772B513F3F00F7F346 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,12 +185,16 @@
 				522BF2AD2B4EC7350007B140 /* Sources */,
 				522BF2AE2B4EC7350007B140 /* Frameworks */,
 				522BF2AF2B4EC7350007B140 /* Resources */,
+				52D567AB2B51531500F7F346 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AirpayPaymentSdk;
+			packageProductDependencies = (
+				52F1F5D82B74A2EA00B5DDFD /* Alamofire */,
+			);
 			productName = AirpayPaymentSdk;
 			productReference = 522BF2B12B4EC7350007B140 /* AirpayPaymentSdk.framework */;
 			productType = "com.apple.product-type.framework";
@@ -160,8 +242,12 @@
 			knownRegions = (
 				en,
 				Base,
+				sw,
 			);
 			mainGroup = 522BF2A72B4EC7350007B140;
+			packageReferences = (
+				52F1F5D72B74A2EA00B5DDFD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 522BF2B22B4EC7350007B140 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D5A19C2B6A83880038607F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +276,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52D567AB2B51531500F7F346 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		522BF2AD2B4EC7350007B140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522D62A12BAC0DA600C3DB88 /* LocalizationManager.swift in Sources */,
+				529E6DF62B51768000F6ECBC /* Session.swift in Sources */,
+				529E6DEA2B51768000F6ECBC /* StringExtension.swift in Sources */,
 				522BF2B62B4EC7350007B140 /* AirpayPaymentSdk.docc in Sources */,
+				529E6DF32B51768000F6ECBC /* App.swift in Sources */,
+				5263B3972B70E76000058BCC /* SurchargeModel.swift in Sources */,
+				5259FA632B6B9E2F000AE23C /* CustomButton.swift in Sources */,
+				529E6DEB2B51768000F6ECBC /* SessionManager.swift in Sources */,
+				529E6DEF2B51768000F6ECBC /* ConfirmPayementView.swift in Sources */,
+				529E6DF42B51768000F6ECBC /* InputOutput.swift in Sources */,
+				52915C362B56A4ED00B7C908 /* PaymentResponseModel.swift in Sources */,
+				529E6DF52B51768000F6ECBC /* AES256Cryption.swift in Sources */,
+				529E6DF12B51768000F6ECBC /* LoginModel.swift in Sources */,
+				529E6DF92B51768000F6ECBC /* TimerWithLoaderApp.swift in Sources */,
+				529E6DED2B51768000F6ECBC /* payIndexModel.swift in Sources */,
+				529E6DEC2B51768000F6ECBC /* DictionaryExtension.swift in Sources */,
+				529E6DFA2B51768000F6ECBC /* APIManager.swift in Sources */,
+				529E6DF22B51768000F6ECBC /* MultipartMedia.swift in Sources */,
+				529E6DF02B51768000F6ECBC /* TimerView.swift in Sources */,
+				529E6DEE2B51768000F6ECBC /* APIClient.swift in Sources */,
+				529E6DF72B51768000F6ECBC /* AccessTokenResponseModel.swift in Sources */,
+				529E6DF82B51768000F6ECBC /* proceedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +350,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -278,6 +407,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -288,6 +418,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -330,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -348,14 +479,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AirpayPaymentSdk/Assets.xcassets\"";
 				DEVELOPMENT_TEAM = 9R5234CBK4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +498,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.airpay.AirpayPaymentSdk;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -379,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AirpayPaymentSdk/Assets.xcassets\"";
 				DEVELOPMENT_TEAM = 9R5234CBK4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -386,7 +522,8 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +544,7 @@
 		522BF2C92B4EC7350007B140 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R5234CBK4;
@@ -423,6 +561,7 @@
 		522BF2CA2B4EC7350007B140 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R5234CBK4;
@@ -467,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52F1F5D72B74A2EA00B5DDFD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52F1F5D82B74A2EA00B5DDFD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52F1F5D72B74A2EA00B5DDFD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 522BF2A82B4EC7350007B140 /* Project object */;
 }
